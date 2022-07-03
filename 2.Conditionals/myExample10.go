@@ -4,12 +4,21 @@ import "fmt"
 
 func main() {
 
-	asciiTable := 125
-	// fmt.Println(string(rune(asciiTable))) // --> A
-	// fmt.Println(rune(asciiTable))         // --> 65
-	box := string(rune(asciiTable))
-	fmt.Println(box)
+	// asciiTable1 := 31
+	// fmt.Println(string(rune(asciiTable1))) // --> A
+
+	// asciiTable2 := 'A'
+	// fmt.Println(asciiTable2)         // --> 65
+
+	num := 0
+	// letter := ""
+	fmt.Println("Enter the number from 33 ... to 127!: ")
+	fmt.Scanln(&num)
+	fmt.Println(string(rune(num)))
 	
+	// fmt.Println("Enter the Alphabet letters: ")
+	// fmt.Scanln(&letter)
+	// fmt.Println(letter)
 
 	// asciiT := 0
 	// fmt.Println("Son kiriting: ")
