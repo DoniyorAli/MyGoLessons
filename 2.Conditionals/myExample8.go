@@ -8,7 +8,6 @@ func main() {
 	num2 := 17
 	num3 := 18
 
-// FIRST EXAMPLE
 // BIG NUMBER
 	if num1 < num2{
 		num1 = num2
