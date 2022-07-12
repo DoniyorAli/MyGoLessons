@@ -22,9 +22,9 @@ func main() {
 	// Seconds := seconds % 3600 
 	// fmt.Println(Hour,"Hour:", Seconds,"Seconds:")
 
-	Hour := seconds / 3600
-	Minute := seconds % 3600 / 60
-	Seconds := seconds % 3600 % 60
-	fmt.Println(Hour,".hour", Minute,".minute", Seconds,".second")
+	hour := seconds / 3600
+	min := seconds % 3600 / 60
+	sec := seconds % 3600 % 60
+	fmt.Println(hour,".hour", min,".minute", sec,".second")
 
 }
