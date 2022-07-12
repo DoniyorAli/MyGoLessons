@@ -12,40 +12,51 @@ func main() {
 
   switch choice {
     case 1: fmt.Println("Rectangle, Enter the sides of rectangle a,b,c,d:")
-      a := 0
-      b := 0
-      c := 0
-      d := 0
-      fmt.Scanln(&a,&b,&c,&d)
-      fmt.Print("a-->",a,"sm","\nb-->",b,"sm","\nc-->",c,"sm","\nd-->",d,"sm","\n")
-      if a == b {
+      a1 := 0
+      b1 := 0
+      a2 := 0
+      b2 := 0
 
+      fmt.Printf("a-->")
+      fmt.Scanf("%d", &a1)
+      fmt.Printf("b-->")
+      fmt.Scanf("%d", &b1)
+      fmt.Printf("c-->")
+      fmt.Scanf("%d", &a2)
+      fmt.Printf("d-->")
+      fmt.Scanf("%d", &b2)
+
+      fmt.Print("a-->",a1,"sm","\nb-->",b1,"sm","\nc-->",a2,"sm","\nd-->",b2,"sm","\n")
+
+      // rectangle := a1 * b1
+
+      if (a1 == a2 && b1 == b2) && a1 == b1{
+        fmt.Println("Square")
+      }else if (a1 == a2 && b1 == b2) && a1 != b1{
+        fmt.Println("Rectangle")
+      }else{
+        fmt.Println("It is neither Square nor Rectangle!")
       }
-    case 2: fmt.Println("Triangle, Enter the sides of triangle a,b,c:")
+
+    case 2: fmt.Println("Triangle, Enter the angles of the triangle a,b,c:")
       a := 0
       b := 0
       c := 0
-      fmt.Scanln(&a,&b,&c)
+      fmt.Printf("a-->")
+      fmt.Scanf("%d", &a)
+      fmt.Printf("b-->")
+      fmt.Scanf("%d", &b)
+      fmt.Printf("c-->")
+      fmt.Scanf("%d", &c)
+
       fmt.Print("a-->",a,"sm","\nb-->",b,"sm","\nc-->",c,"sm","\n")
+
+      if a == b && b == c && a == c{
+        fmt.Println("All sides are equal triangle")
+      }else if a == c {
+        fmt.Println("Triangle with two equal sides triangle")
+      }else {
+        fmt.Println("Simple triangle")
+      }
   }
-
-
-
-
-  // var rectangle int
-  // var triangle int
-  // fmt.Scanln(&rectangle)
-  
-  // if 1 == rectangle {
-  //   a := 0
-  //   b := 0
-  //   c := 0
-  //   d := 0
-  //   fmt.Println("Enter the sides of rectangle a,b,c,d:")
-  //   fmt.Scanln(&a,&b,&c,&d)
-  //   fmt.Printf("a-->%d\nb-->%d\nc-->%d\nd-->%d\n", &a, &b, &c, &d)
-  // }
-
-  // fmt.Scanln(&triangle)
-
 }
