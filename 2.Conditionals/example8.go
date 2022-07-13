@@ -33,15 +33,4 @@ func main() {
 	totalPrice = float32(num) * float32(price)
 	 fmt.Println("Total price", int(totalPrice), "$")
 
-	// if totalPrice % 2 != 0{
-	// 	fmt.Println("Total price", int(totalPrice), "$")
-	// }else{
-	// 	fmt.Println(totalPrice)
-	// }
-
-	// if reflect.TypeOf(totalPrice) != reflect.TypeOf(totalPrice){
-	// 	fmt.Println("Total price", int(totalPrice), "$")
-	// }else if reflect.TypeOf(totalPrice) == reflect.TypeOf(totalPrice){
-	// 	fmt.Println("Total price", totalPrice, "$")
-	// }
 }

@@ -18,11 +18,5 @@ func main() {
 	}else {
 		fmt.Println("B big number!")
 	}
-//________________________________________________________________
 
-	// if num := -11; num > 0{
-	// 	fmt.Println("Positive number!")
-	// }else {
-	// 	fmt.Println("Negative number!")
-	// }
 }
