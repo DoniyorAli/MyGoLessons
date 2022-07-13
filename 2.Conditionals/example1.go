@@ -1,4 +1,4 @@
-package main
+package main    // IF; ELSE; ELSE IF
 
 import "fmt"
 
