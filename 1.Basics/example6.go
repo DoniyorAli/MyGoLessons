@@ -1,4 +1,4 @@
-package main  // TYPE CHANGING (CONVERSION)
+package main        // TYPE CHANGING (CONVERSION)
 
 import "strconv"
 

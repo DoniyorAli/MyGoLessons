@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	
 	// BO'SH TANITUVCHI
 	//db_get() --> data, err
 	//_, data := get_data()

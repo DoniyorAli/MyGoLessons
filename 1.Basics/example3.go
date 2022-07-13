@@ -13,7 +13,6 @@ func main() {
 	modul := a % b    // Harqanday kichik sonni katta songa modulini olsak to'g'ridan 
 	fmt.Println(modul)  // --> 10 // to'g'ri kichik sonning o'zi o'tadi
 
-
 	num1 := 63
 	num2 := 10
 

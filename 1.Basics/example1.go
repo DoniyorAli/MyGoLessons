@@ -1,12 +1,12 @@
 package main
 
 func main() {
-	// println("Hello Golang !")
-	// println("Hello Ali")
-	// println("Hello World")
+// 	println("Hello Golang !")
+// 	println("Hello Ali")
+// 	println("Hello World")
 
-// VARIABLE ---> o'zgaruvchi
-// VAR      ---> keyword, kalit so'z
+//  VARIABLE ---> o'zgaruvchi
+//  VAR      ---> keyword, kalit so'z
 
 //  declare	        =  assignmend
 //  tanitish        =  tenglashtirish, tayinlash

@@ -45,6 +45,7 @@ func main(){ // STRING, NUMBER, BOOLEAN
 
 	var num1, num2, num3 int = 11, 22, 33
 	println(num1 + num2 + num3)
+//_______________________________________________________________________
 
 // FLOAT
 

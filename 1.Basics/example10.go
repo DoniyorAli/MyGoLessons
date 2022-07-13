@@ -5,7 +5,7 @@ import "fmt"
  
 func main() {
     var (
-        name string = "Ali"
+        name string = "Alixan"
         age int = 23
     )
      

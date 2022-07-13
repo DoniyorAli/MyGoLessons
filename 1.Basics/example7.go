@@ -16,6 +16,6 @@ func main() {
 
 
 	x, y, z, b := 1, 77.6, "World", false
-	fmt.Printf("1: %T\n2: %T\n3: %T\n4: %T\n", x, y, z, b) // TYPE ni ko'rish --> %T
+	fmt.Printf("1: %T\n2: %T\n3: %T\n4: %T\n", x, y, z, b)  // TYPE ni ko'rish --> %T
 
 }

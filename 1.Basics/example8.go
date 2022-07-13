@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-	println("Hello Golang")   //  OUTPUT
+	println("Hello Golang")  //  OUTPUT
 
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Raqam kiriting: ")
