@@ -1,4 +1,4 @@
-package main      // SWITCH
+package main      // SWITCH CASE
 
 import "fmt"
 
