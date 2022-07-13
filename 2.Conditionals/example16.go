@@ -34,7 +34,7 @@ func main() {
 	case 55 <= totalBall && totalBall < 60: 
 		fmt.Println("Your ball --> 2")
 	case 55 > totalBall: 
-		fmt.Println("Your failed the exam!")
+		fmt.Println("Your failed the exam!!!")
 	}
 
 }

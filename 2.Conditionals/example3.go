@@ -15,8 +15,8 @@ func main() {
 		fmt.Println("Hello Temur")
 	case "Jack":
 		fmt.Println("Hello Jack")
-	case "Anna":
-		fmt.Println("Hello Anna")
+	case "Lola":
+		fmt.Println("Hello Lola")
 	default:
 		fmt.Println("No such name 🤦‍♂️")
 	}
