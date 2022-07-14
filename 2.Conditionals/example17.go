@@ -28,7 +28,6 @@ func main() {
 
       fmt.Print("a-->",a1,"sm","\nb-->",b1,"sm","\nc-->",a2,"sm","\nd-->",b2,"sm","\n")
 
-      // rectangle := a1 * b1
 
       if (a1 == a2 && b1 == b2) && a1 == b1{
         fmt.Println("Square")
