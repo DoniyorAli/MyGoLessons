@@ -23,6 +23,7 @@ func main() {
 	}else if num == 7 {
 		fmt.Println("Sunday")
 	}else {
-		fmt.Println("Wrong entered!")
+		fmt.Println("Wrong entered!\nThere is no such day of the week")
 	}
+
 }
