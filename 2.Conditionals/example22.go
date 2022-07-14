@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-
+	
 	var numbers int
 	fmt.Printf("Enter three digit number:")
 	fmt.Scan(&numbers)

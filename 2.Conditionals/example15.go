@@ -39,5 +39,5 @@ func main() {
 	// 	fmt.Println("All numbers are equal!")
 	// }
 	// fmt.Println("The largset number:", bigNum)
-	
+
 }

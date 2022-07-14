@@ -23,7 +23,7 @@ func main() {
 	}else if arithmetic == "/" {
 		fmt.Printf("Result: %.1f", num1 / num2)
 	}else {
-		fmt.Println("Wrong entered")
+		fmt.Println("Wrong entered!")
 	}
 
 }
