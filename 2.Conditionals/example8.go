@@ -31,6 +31,6 @@ func main() {
 
 	var totalPrice float32
 	totalPrice = float32(num) * float32(price)
-	 fmt.Println("Total price", int(totalPrice), "$")
+	fmt.Println("Total price", int(totalPrice), "$")
 
 }
