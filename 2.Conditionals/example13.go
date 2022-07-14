@@ -1,4 +1,4 @@
-package main
+package main   // ASCII TABLE
 
 import "fmt"
 
@@ -16,7 +16,7 @@ func main() {
 	fmt.Scanln(&num)
 	fmt.Println(string(rune(num)))
 
-
+	
 	// if 97 <= harf && harf >= 122{
 	// 	fmt.Println("Small letter!")
 	// }else if 65 <= harf && harf <= 90{
