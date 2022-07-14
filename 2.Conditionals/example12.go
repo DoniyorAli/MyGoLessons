@@ -9,12 +9,12 @@ func main() {
 	fmt.Println("Enter 3 random numbers: ")
 	fmt.Scanln(&num1, &num2, &num3) // 11, 15, 13
 
-	bigNum = num1      // --> 11
-	if bigNum < num2{  // --> 11 < 15
-		bigNum = num2  // --> 15
+	bigNum = num1        // --> 11
+	if bigNum < num2{    // --> 11 < 15
+		bigNum = num2    // --> 15
 	}
-	if bigNum < num3{  // --> 15 < 13 
-		bigNum = num3  // error
+	if bigNum < num3{    // --> 15 < 13 
+		bigNum = num3  	 // error
 	}
 	fmt.Println("Big number: ", bigNum) // --> 15
 
