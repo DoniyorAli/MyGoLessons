@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	
 	// Military admission
 	// Your gender Male, and you must be taller than 180
 	// Your gender Woman, and you must be taller than 160
