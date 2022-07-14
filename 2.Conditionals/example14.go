@@ -25,5 +25,4 @@ func main() {
 	}else {
 		fmt.Println("Please enter correctly!")
 	}
-
 }
