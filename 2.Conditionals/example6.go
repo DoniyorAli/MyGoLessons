@@ -9,9 +9,9 @@ func main() {
 	fmt.Scanf("%d", &number)
 
 	if number % 2 == 0 {
-		fmt.Println(number, "even number")
+		fmt.Println(number, "Even number")
 	}else{
-		fmt.Println(number, "an odd number")
+		fmt.Println(number, "An odd number")
 	}
 
 }

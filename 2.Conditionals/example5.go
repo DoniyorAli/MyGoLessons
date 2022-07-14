@@ -5,9 +5,9 @@ import "fmt"
 func main() {
 	/*
 	Evaluation system
-	80 --- 100 --> 5
-	60 --- 80  --> 4
-	40 --- 60  --> 3
+	80 --- 100 ---> 5
+	60 --- 80  ---> 4
+	40 --- 60  ---> 3
 	Below from 40 is failed 
 	*/
 
