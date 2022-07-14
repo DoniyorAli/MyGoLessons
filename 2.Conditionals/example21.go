@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 
 	var seconds int32
-	fmt.Printf("Enter the seconds:")
+	fmt.Printf("Enter the seconds: ")
 	fmt.Scan(&seconds)
 
 	// Minute := seconds / 60
