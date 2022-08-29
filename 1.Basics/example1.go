@@ -27,5 +27,4 @@ func main() {
 
 	var b_ string = "B"
 	println(b_)
-
 }
