@@ -18,7 +18,7 @@ func main() {
 		j -= 1
 	}
 //_________________________________________________________________
-	fmt.Print("=======\n")
+	fmt.Print("========\n")
 
 	var num = 0     //  var num int = 0
 	var total = 0   //  var total int =0
@@ -29,7 +29,7 @@ func main() {
 	}
 	fmt.Println("Total:", total) // output Total: 55
 //_________________________________________________________________
-	fmt.Print("=======\n")
+	fmt.Print("========\n")
 
 	box := 10
 
