@@ -1,4 +1,4 @@
-package main            // FOR 
+package main         // FOR 
 
 func main() {
 
