@@ -12,7 +12,7 @@ func main() {
 	multip = num1 * num2 * num3
 	arithmetik = total / 3
 
-//  Small number
+//  Big number
 	smalNum = num1
 	if smalNum > num2 {
 		smalNum = num2
@@ -20,8 +20,7 @@ func main() {
 	if smalNum > num3{
 		smalNum = num3
 	}
-	
-// 	Bigg number
+// Small number
 	bigNum = num1
 	if bigNum < num2{
 		bigNum = num2
