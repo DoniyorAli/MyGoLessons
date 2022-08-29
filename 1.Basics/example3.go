@@ -60,5 +60,4 @@ func main() {
 
 	number *= 3
 	fmt.Println(number)  // --> 18
-
 }
