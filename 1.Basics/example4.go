@@ -14,5 +14,4 @@ func main() {
 
 	var _, x, _ = 0, 10, 0
 	fmt.Println(x)
-
 }
