@@ -1,6 +1,6 @@
 package main
 
-var name string = "Alixan"   // GLOBAL
+var name string = "Alixan"    // GLOBAL
 
 var (
 	box1 string = "Hello"
