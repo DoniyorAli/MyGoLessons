@@ -1,4 +1,4 @@
-package main          // CONST  ---> O'ZGARMAS
+package main          // CONST  ----> O'ZGARMAS
 
 const name = "Alixan"
 
