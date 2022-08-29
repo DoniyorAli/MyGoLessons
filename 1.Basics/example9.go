@@ -1,4 +1,4 @@
-package main // Scanln  and TIME
+package main                // Scanln  and TIME
 
 import "fmt"
 import "time"
