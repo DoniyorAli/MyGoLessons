@@ -82,5 +82,4 @@ func main(){ // STRING, NUMBER, BOOLEAN
 
 	// vBool := true
 	// println(vBool)
-	
 }
