@@ -1,4 +1,4 @@
-package main // OUTPUT  ---  INPUT
+package main                 // OUTPUT  ---  INPUT
 
 import (
 	"bufio"
