@@ -9,7 +9,7 @@ func main() {
 		{30, 12},
 	}
 
-	fmt.Println(multiArray)
+	fmt.Println(multiArray)			// [[14 27] [30 12]]
 	fmt.Println(multiArray[0])		// [14, 27]
 	fmt.Println(multiArray[1][0])	// 30
 	fmt.Println(multiArray[1][1])	// 12
@@ -25,7 +25,7 @@ func main() {
 		{31, 42, 63},
 	}
 
-	fmt.Println(multiArray)
+	fmt.Println(multiArray1)		// [[14 27 35] [30 12 63] [78 45 39] [31 42 63]]
 	fmt.Println(multiArray1[0])		// [14, 27, 35]
 	fmt.Println(multiArray1[0][1])	// 27
 	fmt.Println(multiArray1[2][1])	// 45
