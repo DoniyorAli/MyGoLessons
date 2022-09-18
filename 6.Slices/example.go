@@ -30,8 +30,8 @@ func main() {
 	nums = append(nums, 789)
 	fmt.Println(nums)	// [0 11 0 0 0 789]
 
-	fmt.Println("LENGTH:", len(nums))
-	fmt.Println("LENGTH:", cap(nums))
+	fmt.Println("LENGTH:", len(nums))		//* LENGTH: 6
+	fmt.Println("CAPACITY:", cap(nums))		//* CAPACITY: 10
 //================================================================
 	fmt.Println()
 
