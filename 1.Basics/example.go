@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	for _, env := range os.Environ(){
+	for _, env := range os.Environ() {
 		fmt.Println(env)
 	}
 
@@ -17,7 +17,7 @@ func main() {
 	homePath := os.Getenv("HOME")
 	fmt.Println("HomePath: " + homePath)
 	*/
-	
+
 	goPath := os.Getenv("_")
 	fmt.Println("Go Path: " + goPath)
 }
