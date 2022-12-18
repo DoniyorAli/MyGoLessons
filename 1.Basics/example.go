@@ -12,7 +12,7 @@ func main() {
 	}
 
 	/*uName := os.Getenv("USER")
-	fmt.Println("Username: " + uName)
+	fmt.Println("Username: " + uName)==
 
 	homePath := os.Getenv("HOME")
 	fmt.Println("HomePath: " + homePath)
