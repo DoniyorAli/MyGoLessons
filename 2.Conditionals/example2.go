@@ -22,5 +22,4 @@ func main() {
 	default:
 		fmt.Println("This number is No! DANG 🤦‍♂️")
 	}
-
 }
