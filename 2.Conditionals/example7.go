@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	
+
 	// Military admission
 	// Your gender Male, and you must be taller than 180
 	// Your gender Woman, and you must be taller than 160
@@ -18,19 +18,19 @@ func main() {
 	fmt.Printf("Enter your height: ")
 	fmt.Scanf("%d", &height)
 
-	if (gender == "male" || gender == "Male") && height >= 180 && height <= 210{
+	if (gender == "male" || gender == "Male") && height >= 180 && height <= 210 {
 		fmt.Printf("Hello %v, Your gender is %v, Your height %d\n", name, gender, height)
 		fmt.Println("Good you are accepted!")
-	}else if (gender == "male" || gender == "Male") && height < 180{
+	} else if (gender == "male" || gender == "Male") && height < 180 {
 		fmt.Printf("Hello %v, Your gender is %v, Your height %d\n", name, gender, height)
 		fmt.Println("Unfor you are not accepted!!!")
-	}else if (gender == "woman" || gender == "Woman") && height >= 160{
+	} else if (gender == "woman" || gender == "Woman") && height >= 160 {
 		fmt.Printf("Hello %v, Your gender is %v, Your height %d\n", name, gender, height)
 		fmt.Println("Good you are accepted!!!")
-	}else if (gender == "woman" || gender == "Woman") && height < 160{
+	} else if (gender == "woman" || gender == "Woman") && height < 160 {
 		fmt.Printf("Hello %v, Your gender is %v, Your height %d\n", name, gender, height)
 		fmt.Println("Unfor ou are not accepted!!!")
-	}else{
+	} else {
 		fmt.Println("Please fill out the questionnaire correctly or wrong entered height!")
 	}
 
