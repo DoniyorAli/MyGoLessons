@@ -25,5 +25,4 @@ func main() {
 	}else {
 		fmt.Println("Wrong entered!\nThere is no such day of the week")
 	}
-
 }
