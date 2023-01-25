@@ -19,5 +19,4 @@ func main() {
 	fmt.Println(num)
 
 }
-
 // Example number: 12345 ---> 54321
