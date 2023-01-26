@@ -13,5 +13,4 @@ func main() {
 	}else{
 		fmt.Println("Not devided")
 	}
-
 }
