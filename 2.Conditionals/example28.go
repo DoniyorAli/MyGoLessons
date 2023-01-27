@@ -15,5 +15,4 @@ func main() {
 	}else {
 		fmt.Println("Dangngng!")
 	}
-
 }
