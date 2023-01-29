@@ -27,5 +27,4 @@ func main() {
 	if actions == "/" {
 		fmt.Println("Total:", first / second)
 	}
-
 }
