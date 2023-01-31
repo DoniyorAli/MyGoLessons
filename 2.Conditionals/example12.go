@@ -26,5 +26,4 @@ func main() {
 		smalNum = num3   // error
 	}
 	fmt.Println("Small number: ", smalNum)
-
 }
