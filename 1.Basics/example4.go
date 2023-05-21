@@ -10,7 +10,7 @@ func main() {
 	//fmt.Println(data)
 
 	var _ string = "Hello"
-	// fmt.Println(_)
+	//fmt.Println(_)
 
 	var _, x, _ = 0, 10, 0
 	fmt.Println(x)
